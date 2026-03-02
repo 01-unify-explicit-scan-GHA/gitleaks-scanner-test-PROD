@@ -133,7 +133,7 @@ Note: to disable the gitleaks pre-commit hook you can prepend `SKIP=gitleaks` to
 and it will skip running gitleaks
 
 ```
-➜ SKIP=gitleaks git commit -m "skip gitleaks check"
+➜ SKIP=gitleaks git commit -m "skip gitleaks check" 
 Detect hardcoded secrets................................................Skipped
 ```
 
